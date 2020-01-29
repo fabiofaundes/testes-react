@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import styled from 'styled-components'
 import { createGlobalStyle } from 'styled-components'
-import Nav from './Nav'
+import Nav from './components/Nav'
 
 const GlobalStyles = createGlobalStyle `
   @import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
