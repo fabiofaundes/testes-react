@@ -1,0 +1,34 @@
+.alert{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    box-sizing: border-box;    
+    margin: 20px 0;
+    border-radius: 5px;        
+
+    font-family: 'Poppins';
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.success{
+    background: rgb(0,230,0);
+    background: linear-gradient(90deg, rgba(0,230,0,1) 0%, rgba(51,255,51,1) 100%);
+}
+
+.error{
+    background: rgb(255,26,26);
+    background: linear-gradient(90deg, rgba(255,26,26,1) 0%, rgba(255,77,77,1) 100%);
+    color: white;
+}
+
+.alert img{    
+    cursor: pointer;
+    padding: 10px;
+}
+
+.alert span{
+    margin-left: 10px;
+}

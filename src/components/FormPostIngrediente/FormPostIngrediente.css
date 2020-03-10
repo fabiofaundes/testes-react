@@ -1,0 +1,54 @@
+.postForm {
+    display: flex;
+    flex-direction: column;    
+    align-items: stretch;
+    padding: 20px 15px;    
+
+    box-sizing: border-box;    
+
+    background-color: #8CFF87;
+}
+
+.postForm .campo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 1em;
+
+    font-family: 'Poppins';
+    font-size: 1.1em;
+}
+
+.form-title{
+    display: inline-block;
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 7px;    
+    border-bottom: solid black 1px;
+
+    font-family: 'Spartan';    
+    font-weight: 500;
+    font-size: 1.5em;    
+}
+
+.postForm input[type=text] {
+    width: 80%;        
+}
+
+.campo-submit{    
+    display: flex;
+    align-items: center;
+}
+
+.postForm input[type=submit] {    
+    font-size: 1.5em;
+    font-weight: 700;
+    cursor: pointer;
+
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    
+    background-color: #FFFF4D;
+}

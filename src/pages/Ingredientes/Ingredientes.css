@@ -1,0 +1,39 @@
+.ingredientes-title{
+    font-family: 'Spartan';
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.ingredientes-subtitle{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.hr{
+    border: solid black 1px;
+}
+
+.crud-container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+.crud-container > form:first-of-type {
+    margin-right: 20px;
+}
+
+.tabela-ingredientes{
+    margin-top: 3vh;
+}
+
+.delete-edit{    
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+    align-items: flex-start;        
+    flex-grow: 1;
+}

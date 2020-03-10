@@ -1,0 +1,29 @@
+.deleteForm{
+    background-color: #8CFF87;
+    padding: 20px;    
+}
+
+.deleteForm .campo label{
+    margin-right: 5px;    
+}
+
+.deleteForm .campo{
+    margin-right: 20px;
+}
+
+.deleteForm .corpo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0;
+}
+
+.deleteForm input[type='submit']{
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 700;
+    background-color: #FFFF4D;
+    cursor: pointer;
+}

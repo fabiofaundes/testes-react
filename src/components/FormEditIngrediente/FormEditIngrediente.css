@@ -1,0 +1,46 @@
+.editForm{
+    background-color: #8CFF87;
+    padding: 20px;    
+}
+
+.editForm .campo{
+    margin-right: 20px;
+}
+
+.editForm .campo label{
+    margin-right: 5px;    
+}
+
+.editForm .campo-id input{
+    width: 50px;
+}
+
+.editForm .campo-nome input{
+    width: 150px;
+}
+
+.editForm .campo-preco input{
+    width: 70px;
+}
+
+.editForm .campo-data input{
+    width: 200px;
+}
+
+.editForm .corpo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0;
+}
+
+
+.editForm input[type='submit']{
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 700;
+    background-color: #FFFF4D;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.table{    
+    font-family: 'Poppins';
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    border-collapse: collapse;
+    table-layout: fixed;      
+}
+
+.id{
+    width: 5%;
+}
+
+.nome{
+    width: 45%;
+}
+
+.preco, .data{
+    width: 25%;
+}
+
+.table th{
+    box-sizing: border-box;
+    font-size: 1.3em;    
+    border-bottom: 1px solid black;
+}
+
+.table th, td{
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+.table th:last-of-type, td:last-of-type{
+    border-right: none;
+}
+
+.table thead tr{
+    background-color: #8CFF87;        
+}
+
+.table tbody tr{
+    background-color: #FFFF66;
+    cursor: pointer;    
+}
+
+.table tbody tr:nth-child(even){
+    background-color: #FFFF99;
+}
+
+.table tbody tr:hover{
+    background-color: #E6E65C;
+}
