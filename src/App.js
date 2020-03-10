@@ -1,33 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import styled from 'styled-components'
-import { createGlobalStyle } from 'styled-components'
-import Nav from './Nav'
-
-const GlobalStyles = createGlobalStyle `
-  @import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
-
-  .font-arvo {
-    font-family: 'Arvo', serif;  
-  }
-`
-
-const PageBody = styled.div `
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-
-  width: 100vw;
-  height: 100vh;
-`
+import { Switch, Route, BrowserRouter} from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Nav from './components/Nav/Nav';
+import Ingredientes from './pages/Ingredientes/Ingredientes';
+import './App.css';
 
 class App extends React.Component {
   render() {
-    return(
-      <PageBody>
-        <Nav></Nav>
-      </PageBody>
-    )
+    return(                  
+      <BrowserRouter>
+        <Nav/>        
+        <div className='corpo'>          
+          <Switch>
+            <Route path='/home'>              
+              <Home/>
+            </Route>
+            <Route path='/ingredientes'>
+              <Ingredientes/>
+            </Route>
+          </Switch>
+        </div>
+      </BrowserRouter>
+    );
   }
 }
 

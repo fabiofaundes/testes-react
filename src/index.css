@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Spartan&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input, select {
+  border: solid 1px rgb(100,100,100);    
+  border-radius: 2px;
+  padding: 5px;
+  
+  font-family: 'Poppins';
+  font-size: 1em;    
+
+  background: none;
+  background-color: #f2f2f2;
 }
