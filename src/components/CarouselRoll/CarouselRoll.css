@@ -1,8 +1,9 @@
 .carousel-roll{
     position: relative;
     display: inline-block;
-    width: 100%;    
-    height: 500px;
+
+    box-sizing: border-box;
+    width: 100%;        
     white-space: nowrap;
     overflow: hidden;
 }

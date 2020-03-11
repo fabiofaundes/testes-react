@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './CarouselRoll.css';
 import PropTypes from 'prop-types';
 
 const CarouselRoll = (props) => { 
-  var carouselIndex = 0;  
+  var carouselIndex = 0;
+
+  useEffect(() => {
+    setHeight();
+    window.addEventListener('resize', setHeight);
+    return () => {
+      window.removeEventListener('resize');
+    };
+  },[]);
+
+  const setHeight = () => {
+    const carousel = document.getElementsByClassName('carousel-roll')[0];
+    carousel.style.height = `${carousel.clientWidth/3}px`;
+  };
 
   const rollRight = () => {
     const items = document.getElementsByClassName('carousel-roll')[0]

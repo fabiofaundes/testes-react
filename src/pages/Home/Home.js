@@ -13,7 +13,7 @@ export default class Home extends Component {
     return(
       <>        
         <div>
-          <CarouselRoll items={[dog, desert, livingRoom, street]}/>
+          <CarouselRoll items={[dog, desert, livingRoom, street]}/>          
         </div>
       </>
     );
