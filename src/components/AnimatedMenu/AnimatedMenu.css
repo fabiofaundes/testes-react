@@ -1,0 +1,43 @@
+.animated-menu{
+    display: inline-grid;    
+    width: 100%;
+}
+
+.animated-menu .item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 1.2em;
+    
+    background-color: rgba(256, 0, 0, 0.5);    
+    transition: 0.5s ease;
+}
+
+.animated-menu .item:hover{
+    background-color: red;
+}
+
+.animated-menu .item .risco{
+    position: absolute;
+    border: 3px solid black;
+    box-sizing: border-box;
+    width: 70%;
+    top: 60px;
+    opacity: 0;
+    transition: .5s ease;
+    pointer-events: none;
+}
+
+.animated-menu .item .ativo{    
+    opacity: 1;
+    width: 100%;
+    top: 50px
+}
+
+.animated-menu .item span{
+    pointer-events: none;
+}

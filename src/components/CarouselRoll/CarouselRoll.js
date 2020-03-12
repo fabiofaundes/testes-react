@@ -9,7 +9,7 @@ const CarouselRoll = (props) => {
     setHeight();
     window.addEventListener('resize', setHeight);
     return () => {
-      window.removeEventListener('resize');
+      window.removeEventListener('resize', setHeight);
     };
   },[]);
 
