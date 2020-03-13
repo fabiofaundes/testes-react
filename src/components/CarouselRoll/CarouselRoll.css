@@ -1,23 +1,29 @@
-.carousel-roll{
+.carousel-roll{ 
+    position: relative;
+    display: inline-block;  
+    box-sizing: border-box;
+    width: 100%; 
+    overflow: hidden;
+}
+
+.carousel-roll .corpo{
     position: relative;
     display: inline-block;
-
-    box-sizing: border-box;
-    width: 100%;        
     white-space: nowrap;
-    overflow: hidden;
+
+    height: 100%;    
+
+    background-color: black;
+    transition: 1s ease;
 }
 
 .carousel-roll .item{
     display: inline-block;
-    height: 100%;
-    width: 100%;
+    height: 100%;    
 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-
-    transition: margin 1s ease;
+    background-size: cover;    
 }
 
 .carousel-roll .prev, .carousel-roll .next{
@@ -27,7 +33,7 @@
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;

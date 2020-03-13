@@ -1,6 +1,5 @@
 .animated-menu{
-    display: inline-grid;    
-    width: 100%;
+    display: grid;    
 }
 
 .animated-menu .item{

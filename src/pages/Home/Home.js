@@ -1,10 +1,4 @@
 import React, {Component} from 'react';
-import CarouselRoll from '../../components/CarouselRoll/CarouselRoll';
-
-import dog from '../../assets/sleepyDog.jpg';
-import desert from '../../assets/desertScenario.jpg';
-import livingRoom from '../../assets/prettyLivingRoom.jpg';
-import street from '../../assets/street.jpg';
 import AnimatedMenu from '../../components/AnimatedMenu/AnimatedMenu';
 import MenuItem from '../../components/AnimatedMenu/MenuItem';
 
@@ -13,17 +7,14 @@ import MenuItem from '../../components/AnimatedMenu/MenuItem';
 export default class Home extends Component {
   render(){
     return(
-      <>        
-        <div>
-          <CarouselRoll items={[dog, desert, livingRoom, street]}/>
-          <AnimatedMenu>
-            <MenuItem>Item 1</MenuItem>
-            <MenuItem>Item 2</MenuItem>
-            <MenuItem>Item 3</MenuItem>
-            <MenuItem>Item 4</MenuItem>
-            <MenuItem>Item 5</MenuItem>
-          </AnimatedMenu>
-        </div>
+      <>                        
+        <AnimatedMenu>
+          <MenuItem>Item 1</MenuItem>
+          <MenuItem>Item 2</MenuItem>
+          <MenuItem>Item 3</MenuItem>
+          <MenuItem>Item 4</MenuItem>
+          <MenuItem>Item 5</MenuItem>
+        </AnimatedMenu>        
       </>
     );
   }

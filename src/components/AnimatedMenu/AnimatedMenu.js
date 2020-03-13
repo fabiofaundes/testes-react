@@ -5,8 +5,7 @@ import PropTypes from 'prop-types';
 const AnimatedMenu = (props) => {  
   if(props.children)
   {
-    var grid = `50px 6px/repeat(${props.children.length}, 1fr)`;
-    console.log(grid);
+    var grid = `50px 6px/repeat(${props.children.length}, 1fr)`;    
     return(
       <div
         className='animated-menu'
