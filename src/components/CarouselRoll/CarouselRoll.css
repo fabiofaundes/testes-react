@@ -13,7 +13,10 @@
 
     height: 100%;    
 
-    background-color: black;
+    background-color: black;    
+}
+
+.carousel-roll .shifting{
     transition: 1s ease;
 }
 

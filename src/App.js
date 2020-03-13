@@ -24,7 +24,7 @@ class App extends React.Component {
             <CarouselItem backgroundImage={dog}/>
             <CarouselItem backgroundImage={desert}/>
             <CarouselItem backgroundImage={livingRoom}/>
-          </CarouselRoll>
+          </CarouselRoll>          
           <Switch>
             <Route path='/home'>              
               <Home/>
